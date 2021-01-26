@@ -1,3 +1,9 @@
+html a {
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
 .wrapper {
     display: grid;
     grid-template-areas:
@@ -27,7 +33,7 @@
     height: auto;
    padding-top: 50px;
     justify-self: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .lga img {
@@ -67,4 +73,14 @@
 
 #search__btn {
     margin-bottom: 20px;
+    width: 350px;
+}
+
+form {
+    text-align:center;
+}
+
+.foot__center p {
+    font-family: arial, sans-serif;
+    font-size: 14px;
 }
